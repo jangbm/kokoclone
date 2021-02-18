@@ -2,6 +2,3 @@
 
 ## HTML & CSS clone coding
 
-## git edit
-
-## git login ~~
