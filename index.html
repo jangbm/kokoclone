@@ -3,13 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
     <title>Cocoa Talk</title>
 </head>
 <body>
-    <div id="status-bar">
+    <div class="status-bar">
         <div class="status-bar__cloumn">
             <span>No Services</span>
-            <!-- Wifi Icon -->
+            <i class="fas fa-wifi"></i>
         </div>
         <div class="status-bar__cloumn">
             <span>
@@ -20,9 +21,29 @@
             <span>
                 110%
             </span>
-            <!-- battery icon -->
-            <!-- lightning icon -->
+            <i class="fas fa-battery-full fa-2x"></i>
+            <i class="fas fa-bolt"></i>
         </div>
     </div>
+    
+    <header class="welcom-header">
+        <h1 class="welcom-header__title">Welcome to Cocoa Talk</h1>
+        <p class="welcom-header__text">
+            If you have a Cocoa Account, log in with your email or phone number
+        </p>
+    </header>
+
+    <form id="login-form" action="friends.html" method="get">
+        <input type="text" placeholder="Email or phone number"/>
+        <input type="password" placeholder="Password"/>
+        <input type="submit" value="Log In"/>
+        <a href="#">Find  Cocoa Account or Password</a>
+    </form>
+    
+
+    <script
+    src="https://kit.fontawesome.com/6478f529f2.js"
+    crossorigin="anonymous"
+  ></script>
 </body>
 </html>
